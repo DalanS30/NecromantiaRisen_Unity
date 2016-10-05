@@ -73,7 +73,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraScript.cs" />
+    <Compile Include="Assets\Scripts\MainGameScene\StartGame.cs" />
     <Compile Include="Assets\Scripts\TitlePage\BeginButton.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\StoryTextFiles\0.txt" />
+    <None Include="Assets\StoryTextFiles\01.txt" />
+    <None Include="Assets\StoryTextFiles\011.txt" />
+    <None Include="Assets\StoryTextFiles\012.txt" />
+    <None Include="Assets\StoryTextFiles\02.txt" />
+    <None Include="Assets\StoryTextFiles\021.txt" />
+    <None Include="Assets\StoryTextFiles\022.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
